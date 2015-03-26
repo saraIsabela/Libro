@@ -1,0 +1,78 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Libros.Crimen"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot es la cuadrícula raíz donde se coloca todo el contenido de la página-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <phone:Pivot Title="Crimen y Castigo" >
+            <phone:PivotItem Header="General">
+                <StackPanel Margin="0,0,0,0">
+                    <TextBlock Text="Autor:" FontSize="30" Foreground="Aquamarine"/>
+                    <TextBox Text=" Fiódor Dostoyevski" FontSize="25"/>
+
+                    <TextBlock Text="Genero:" FontSize="30" Foreground="Aquamarine" />
+                    <TextBox TextWrapping = "Wrap" Text=" Novela filosófica, Novela policíaca, Novela psicológica" FontSize="25"/>
+
+                    <TextBlock Text="Publicación:" FontSize="30" Foreground="Aquamarine"/>
+                    <TextBox Text="1866"/>
+
+                    <TextBlock Text="Idioma Original:" FontSize="30" Foreground="Aquamarine"/>
+                    <TextBox Text="Ruso"/>
+
+                </StackPanel>
+            </phone:PivotItem>
+
+            <phone:PivotItem Header="Resumen">
+                <StackPanel>
+                    <RichTextBox FontSize="25">
+                        <Paragraph>
+                            La novela nos cuenta un crimen. Un crimen cometido por un joven y su subsecuente
+                            lucha interna con sus emociones y delirios. La madre y hermana del asesino, 
+                            tan pobres o más que él, se debaten entre la duda y la desesperación.
+                            Un dudoso pretendiente de la hija, y su antiguo patrón,
+                            conformaran una acción física dentro de la novela sin perder un ápice 
+                            de su contenido psicológico. Los hechos se muestran sin ningún tipo de
+                            enjuiciamiento.
+                        </Paragraph>
+                    </RichTextBox>
+                </StackPanel>
+            </phone:PivotItem>
+
+            <phone:PivotItem Header="Autor">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="250"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel>
+                        <TextBlock Text="Fiódor Dostoyevski" Foreground="MediumOrchid" FontSize="30"/>
+                        <TextBlock TextWrapping ="Wrap" Text="Moscú Octubre 30 de 1821 – San Petersburgo Enero 28 de 1821" 
+                                   FontSize="18" Foreground="LightSkyBlue"/>
+
+                        <RichTextBox>
+                            <Paragraph FontSize="28">
+                                Es uno de los principales escritores de la Rusia zarista,
+                                cuya literatura explora la psicología humana en el complejo contexto político, 
+                                social y espiritual de la sociedad rusa del siglo XIX.
+                            </Paragraph>
+                        </RichTextBox>
+                    </StackPanel>
+                    <Rectangle Grid.Column="1" Style="{StaticResource FotoFiodor}" VerticalAlignment="Center"/>
+                </Grid>
+            </phone:PivotItem>
+
+        </phone:Pivot>
+    </Grid>
+
+</phone:PhoneApplicationPage>

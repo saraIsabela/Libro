@@ -1,0 +1,76 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Libros.Orgullo"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot es la cuadrícula raíz donde se coloca todo el contenido de la página-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <phone:Panorama Title="Orgullo y Prejuicio" >
+            <phone:PanoramaItem Header="General">
+                <StackPanel Margin="0,0,0,0">
+                    <TextBlock Text="Autor:" FontSize="30" Foreground="Aquamarine"/>
+                    <TextBox Text="Jane Austen" FontSize="25"/>
+
+                    <TextBlock Text="Genero:" FontSize="30" Foreground="Aquamarine" />
+                    <TextBox TextWrapping = "Wrap" Text=" Sátira, Ficción, Novela costumbrista, Novela rosa" FontSize="25"/>
+
+                    <TextBlock Text="Publicación:" FontSize="30" Foreground="Aquamarine"/>
+                    <TextBox Text="1813"/>
+
+                    <TextBlock Text="Idioma Original:" FontSize="30" Foreground="Aquamarine"/>
+                    <TextBox Text="Ingles"/>
+
+                </StackPanel>
+            </phone:PanoramaItem>
+
+            <phone:PanoramaItem Header="Resumen">
+                <StackPanel>
+                    <RichTextBox FontSize="25">
+                        <Paragraph>
+                            En el libro de Orgullo y prejucio se ocupa de una realidad común en Inglaterra a principios del siglo XIX:
+                            las mujeres que no son ricas tienen que casarse bien. Y con "bien" 
+                            queremos decir "con un hombre rico", de modo que cualquier tipo de una 
+                            buena familia con un ingreso grande y 
+                            constante cumple los requisitos para la Caza Matrimonial.
+                        </Paragraph>
+                    </RichTextBox>
+                </StackPanel>
+            </phone:PanoramaItem>
+
+            <phone:PanoramaItem Header="Autor">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="250"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel>
+                        <TextBlock Text="Jane Austen" Foreground="MediumOrchid" FontSize="30"/>
+                        <TextBlock TextWrapping ="Wrap" Text="Steventon, Diciembre 16 de 1775 – Winchester, Julio 18 de 1817" 
+                                   FontSize="18" Foreground="LightSkyBlue"/>
+
+                        <RichTextBox>
+                            <Paragraph FontSize="25">
+                                Fue una destacada novelista británica que vivió durante el período de la Regencia.
+                                La ironía que emplea para dotar de comicidad a sus novelas hace que Jane Austen sea 
+                                contada entre los "clásicos" de la novela inglesa.
+                            </Paragraph>
+                        </RichTextBox>
+                    </StackPanel>
+                    <Rectangle Grid.Column="1" Style="{StaticResource FotoJane}" VerticalAlignment="Center"/>
+                </Grid>
+            </phone:PanoramaItem>
+
+        </phone:Panorama>
+    </Grid>
+
+</phone:PhoneApplicationPage>

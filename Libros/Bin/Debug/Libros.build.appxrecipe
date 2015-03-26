@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LENOVO-ISABELA</Machine>
+    <WindowsUser>Isabela</WindowsUser>
+    <TargetPlatformIdentifier>Windows Phone</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>d6fd3ee6-367a-412d-b00b-e61442e36e53</PackageIdentityName>
+    <IntermediateOutputPath>F:\UNIVERSIDAD\App Movil\Libros\Libros\Libros\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="F:\UNIVERSIDAD\App Movil\Libros\Libros\Libros\Bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="F:\UNIVERSIDAD\App Movil\Libros\Libros\Libros\Bin\Debug\Libros.dll">
+      <PackagePath>Libros.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\UNIVERSIDAD\App Movil\Libros\Libros\Libros\Assets\AlignmentGrid.png">
+      <PackagePath>Assets\AlignmentGrid.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\UNIVERSIDAD\App Movil\Libros\Libros\Libros\Assets\ApplicationIcon.png">
+      <PackagePath>Assets\ApplicationIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\UNIVERSIDAD\App Movil\Libros\Libros\Libros\Assets\BadgeLogo.png">
+      <PackagePath>Assets\BadgeLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\UNIVERSIDAD\App Movil\Libros\Libros\Libros\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\UNIVERSIDAD\App Movil\Libros\Libros\Libros\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\UNIVERSIDAD\App Movil\Libros\Libros\Libros\Assets\SquareTile150x150.png">
+      <PackagePath>Assets\SquareTile150x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\UNIVERSIDAD\App Movil\Libros\Libros\Libros\Assets\SquareTile71x71.png">
+      <PackagePath>Assets\SquareTile71x71.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\UNIVERSIDAD\App Movil\Libros\Libros\Libros\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\UNIVERSIDAD\App Movil\Libros\Libros\Libros\Assets\WideLogo.png">
+      <PackagePath>Assets\WideLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\UNIVERSIDAD\App Movil\Libros\Libros\Libros\Assets\Tiles\FlipCycleTileLarge.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\UNIVERSIDAD\App Movil\Libros\Libros\Libros\Assets\Tiles\FlipCycleTileMedium.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileMedium.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\UNIVERSIDAD\App Movil\Libros\Libros\Libros\Assets\Tiles\FlipCycleTileSmall.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\UNIVERSIDAD\App Movil\Libros\Libros\Libros\Assets\Tiles\IconicTileMediumLarge.png">
+      <PackagePath>Assets\Tiles\IconicTileMediumLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\UNIVERSIDAD\App Movil\Libros\Libros\Libros\Assets\Tiles\IconicTileSmall.png">
+      <PackagePath>Assets\Tiles\IconicTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\UNIVERSIDAD\App Movil\Libros\Libros\Libros\libro_abierto.jpg">
+      <PackagePath>libro_abierto.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\UNIVERSIDAD\App Movil\Libros\Libros\Libros\Gabo.jpg">
+      <PackagePath>Gabo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\UNIVERSIDAD\App Movil\Libros\Libros\Libros\antoine.jpg">
+      <PackagePath>antoine.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\UNIVERSIDAD\App Movil\Libros\Libros\Libros\principito.jpg">
+      <PackagePath>principito.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\UNIVERSIDAD\App Movil\Libros\Libros\Libros\fiodor.jpg">
+      <PackagePath>fiodor.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\UNIVERSIDAD\App Movil\Libros\Libros\Libros\JaneAusten.jpg">
+      <PackagePath>JaneAusten.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\UNIVERSIDAD\App Movil\Libros\Libros\Libros\Bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
